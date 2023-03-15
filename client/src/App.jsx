@@ -37,10 +37,10 @@ function App() {
   return (
     <div>
       <div className='flex flex-col md:h-[75vh] h-[100vh] md:max-w-[1200px] mx-auto md:translate-y-1/4 md:shadow-lg border-2 border-black'>
-        <div className="h-[10%]">
+        <div className="h-[7%]">
           <Navbar search={search} setSearch={setSearch}/>
         </div>
-        <div className="h-[90%]"> 
+        <div className="h-[93%]"> 
           <div className="w-full h-[16%] flex items-center">
             <FilterSection setFilterGenre={setFilterGenre} filterGenre={filterGenre}/>
           </div>

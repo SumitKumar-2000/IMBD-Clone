@@ -2,7 +2,7 @@ import React from 'react'
 
 const Navbar = ({search, setSearch}) => {
   return (
-    <div className='w-full h-full bg-black flex justify-between items-center p-2 md:p-4'>
+    <div className='w-full h-full bg-black flex justify-between items-center px-2'>
       <div className='md:leading-10 leading-8 bg-yellow-400 md:w-[100px] w-[60px] text-xl md:text-3xl font-bold text-center'>
         IMDB
       </div>

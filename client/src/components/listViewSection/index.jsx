@@ -4,7 +4,7 @@ const ListViewSection = ({apiResponse}) => {
 
   return (
     <div className='h-[90%] w-full'>
-      <div className='h-full overflow-y-scroll overflow-x-hidden'>
+      <div className='h-full overflow-y-scroll overflow-x-hidden border border-black p-1'>
         {
           apiResponse.movies?.map((movie,idx) => {
             return (
