@@ -2,7 +2,7 @@ import React from 'react'
 
 const SortSection = () => {
   return (
-    <div className='w-full h-[15%] border border-black'>
+    <div className='h-full w-[15%] border border-black'>
       sort section
     </div>
   )

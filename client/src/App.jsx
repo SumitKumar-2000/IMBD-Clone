@@ -36,16 +36,17 @@ function App() {
 
   return (
     <div>
-      <div className='flex flex-col h-[650px] max-w-[1200px] m-auto translate-y-1/4 rounded-xl shadow-lg border-2 border-black'>
-        <Navbar/>
-        <div className="h-full flex"> 
-          <div className="h-full w-[75%]">
-            <ListViewSection/>
-            <PaginationSection apiResponse={apiResponse} />
-          </div>
-          <div className="h-full w-[25%]">
-            <SortSection/>
+      <div className='flex flex-col md:h-[75vh] h-[100vh] md:max-w-[1200px] mx-auto md:translate-y-1/4 md:shadow-lg border-2 border-black'>
+        <div className="h-[10%]">
+          <Navbar search={search} setSearch={setSearch}/>
+        </div>
+        <div className="h-[90%]"> 
+          <div className="w-full h-[16%] flex items-center">
             <FilterSection setFilterGenre={setFilterGenre} filterGenre={filterGenre}/>
+          </div>
+          <div className="w-full h-[84%]">
+            <ListViewSection apiResponse={apiResponse}/>
+            <PaginationSection apiResponse={apiResponse} setPage={setPage}/>
           </div>
         </div>
       </div>
