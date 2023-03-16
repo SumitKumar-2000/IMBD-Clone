@@ -10,8 +10,8 @@ const FilterSection = ({setFilterGenre, filterGenre}) => {
     {genre: "Family"},
     {genre: "Sci-fi"},
     {genre: "Action"},
-    {genre: "Fantacy"},
-    {genre: "Ramance"},
+    {genre: "Fantasy"},
+    {genre: "Romance"},
     {genre: "Thriller"},
     {genre: "Adventure"},
   ]  
