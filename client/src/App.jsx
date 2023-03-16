@@ -17,7 +17,7 @@ function App() {
   useEffect(() => {
     (async () => {
       try {
-        const {data} = await axios.get("http://localhost:8080/api/movies", {
+        const {data} = await axios.get("https://imbd-clone-a6ni0vr97-sumitkumar-2000.vercel.app/api/movies", {
           params : {
             page : page,
             genre : filterGenre.join(","),
