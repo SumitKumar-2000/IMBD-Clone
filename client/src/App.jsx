@@ -25,8 +25,6 @@ function App() {
             limit : limit
           }
         })
-          
-        console.log("response: ", data);
         setApiResponse(data)
       } catch (error) {
         console.log("error: ",error);
