@@ -13,7 +13,7 @@ app.use(cors())
 app.use("/api",MovieRoutes)
 
 app.get('/', (req,res) => {
-    res.send("Server started...")
+    res.send("Server has been started...")
 })
 
 const port = process.env.PORT || 8080;
